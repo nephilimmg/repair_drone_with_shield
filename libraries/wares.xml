@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Last exported: 12.12.2018 12:58:55-->
+<diff>
+	<replace sel="/wares/ware[@id='ship_gen_xs_repairdrone_01_a']/price/@min">11000</replace>
+	<replace sel="/wares/ware[@id='ship_gen_xs_repairdrone_01_a']/price/@average">13000</replace>
+	<replace sel="/wares/ware[@id='ship_gen_xs_repairdrone_01_a']/price/@max">15000</replace>
+	<replace sel="/wares/ware[@id='ship_gen_xs_repairdrone_01_a']/production[@method='default']/primary/ware[@ware='dronecomponents']/@amount">2</replace>
+	<replace sel="/wares/ware[@id='ship_gen_xs_repairdrone_01_a']/production[@method='default']/primary/ware[@ware='energycells']/@amount">100</replace>
+	<replace sel="/wares/ware[@id='ship_gen_xs_repairdrone_01_a']/production[@method='default']/primary/ware[@ware='smartchips']/@amount">10</replace>
+	<add sel="/wares/ware[@id='ship_gen_xs_repairdrone_01_a']/production[@method='default']/primary">
+		<ware ware="shieldcomponents" amount="1" />
+		<ware ware="hullparts" amount="1" />
+	</add>
+</diff>
